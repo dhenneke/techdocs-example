@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: techdocs-example
+  description: An example component with a basic techdocs page
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  lifecycle: production
+  owner: example-team
